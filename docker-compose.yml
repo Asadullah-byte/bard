@@ -1,0 +1,43 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    depends_on:
+      - db
+    networks:
+      - bard-network
+
+  db:
+    image: pgvector/pgvector:pg16
+    env_file: .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - bard-network
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - bard-network
+  celery:
+    build: .
+    env_file: .env
+    depends_on:
+      - db
+    networks:
+      - bard-network
+    command: celery -A app.celery_app.celery worker --loglevel=info -Q celery,process_images
+  
+networks:
+  bard-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
