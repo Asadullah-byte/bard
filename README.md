@@ -2,7 +2,24 @@
 
 ![Bard Banner](https://img.shields.io/badge/Bard-AI%20Journey%20Narrator-7B61FF?style=for-the-badge)
 
+<!-- Core -->
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
 
+<!-- AI & ML -->
+[![LangChain](https://img.shields.io/badge/LangChain-🦜️🔗-000000?style=for-the-badge)](https://www.langchain.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+[![DeepFace](https://img.shields.io/badge/DeepFace-Face%20Recognition-FF6F00?style=for-the-badge)](https://github.com/serengil/deepface)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+
+<!-- Infrastructure -->
+[![Alembic](https://img.shields.io/badge/Alembic-Migrations-F0F0F0?style=for-the-badge&logo=sqlalchemy&logoColor=red)](https://alembic.sqlalchemy.org/)
+[![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
+[![Celery](https://img.shields.io/badge/Celery-Distributed%20Task%20Queue-37814A?style=for-the-badge&logo=celery&logoColor=white)](https://docs.celeryq.dev/)
+[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
 
 ---
 
